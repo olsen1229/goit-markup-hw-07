@@ -41,7 +41,6 @@ h1 {
     padding-top: 188px;
     color: var(--CLOUD);
     
-
 }
    
 .container {
@@ -320,7 +319,7 @@ header .web {
 }
 
 .modal-send {
-    margin-top: 15px;
+    margin-top: auto;
     padding: 16px 32px;
     background-color: var(--IRIS);
     color: white;
