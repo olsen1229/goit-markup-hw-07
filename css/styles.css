@@ -38,7 +38,7 @@ h1 {
     line-height: 60px;
     letter-spacing: 1.12px;
     text-transform: uppercase; 
-    padding-top: 188px;
+    
     color: var(--CLOUD);
     
 }
@@ -547,6 +547,7 @@ header .web {
 
 .team-socials {
     display: flex;
+
     justify-content: space-around;
     padding-bottom: 32px;
 
@@ -625,6 +626,7 @@ header .web {
     border: 1px solid #8e8f99;
     padding: 16px 0px;
     border-radius: 4px;
+    text-align: center;
 
 }
 
@@ -976,7 +978,12 @@ footer {
         transition: transform 250ms ease-in-out;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     }
+    
+    .team-item {
+    flex-basis: calc(100% / 2 - 30px);
+    }
 
+   
     .what-we-do {
         display: none;
     }
@@ -998,18 +1005,37 @@ footer {
         justify-content: center;
     }
 
+    
+
     .btn-sub {
         margin-top: 24px;
+        
     }
+    .team-socials-icon {
+        height: 40px;
+        width: 40px;
+        gap: 24px;
+    }
+    .team-socials-icon svg {
+        height: 12px;
+        width: 12px;
+    }
+
 }
 
 @media (max-width: 427px) {
-    .title {
+    .title h1 {
         font-size: 36px;
-        letter-spacing: 0.72px;
-        line-height: 1.11;
-    }
+        letter-spacing: 1.12px;
+        line-height: 60px;
+        margin-left: 136px;
+        margin-right: 136px;
+        margin-top: auto;
+        width: 496px;
+        height: 120px;     
 
+    }
+   
     .about-item h2 {
         text-align: center;
     }
@@ -1017,7 +1043,38 @@ footer {
     .input-sub {
         margin-right: 0;
         width: -webkit-fill-available;
+        
     }
+
+    .social-media h2 {
+        text-align: center;
+        justify-content: center;
+       
+    }
+
+    .socials-icon svg {
+        height: 24px;
+        width: 24px;
+        
+    }
+
+    .socials-icon {
+        height: 40px;
+        width: 40px;
+    }
+    .footer-sub {
+        margin: auto;
+
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+ 
+       
+
+  
 }
 
 
