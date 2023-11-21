@@ -1005,11 +1005,11 @@ footer {
         justify-content: center;
     }
 
-    
+      
 
     .btn-sub {
         margin-top: 24px;
-        
+        display: flex;
     }
     .team-socials-icon {
         height: 40px;
@@ -1032,7 +1032,9 @@ footer {
         margin-right: 136px;
         margin-top: auto;
         width: 496px;
-        height: 120px;     
+        height: 120px; 
+
+    }
 
     }
    
@@ -1046,6 +1048,7 @@ footer {
         
     }
 
+   
     .social-media h2 {
         text-align: center;
         justify-content: center;
@@ -1064,6 +1067,7 @@ footer {
     }
     .footer-sub {
         margin: auto;
+        justify-content: center;
 
     }
 
@@ -1071,11 +1075,9 @@ footer {
         text-align: center;
     }
 
- 
-       
+          
 
   
-}
 
 
 
