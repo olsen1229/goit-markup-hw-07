@@ -854,6 +854,7 @@ footer {
 .footer-subscribe-text {
     margin-top: 0;
     color: white;
+    text-align: left;
           
 }
 
@@ -868,7 +869,7 @@ footer {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0.48px;
-    
+        
 }
 
 .input-sub::placeholder {
@@ -880,6 +881,7 @@ footer {
     color: white;
     padding: 8px 24px;
     gap: 16px;
+    margin-left: 24px;
     background-color: var(--IRIS);
     border: none;
     border-radius: 4px;
@@ -920,6 +922,7 @@ footer {
 
     .customer-icon {
         flex-basis: calc(100% / 3 -30px);
+        flex-wrap: wrap;
     }
 
     .footer {
@@ -930,6 +933,18 @@ footer {
         width: 264px;
         margin-right: 24px;
     }
+
+    .about-icon {
+        display: none;
+    }
+
+    .what-we-do {
+        display: none;
+    }
+
+
+
+   
 
 }
 
@@ -980,14 +995,18 @@ footer {
     }
     
     .team-item {
-    flex-basis: calc(100% / 2 - 30px);
+        flex-basis: calc(100% / 2 - 30px);
     }
 
-   
+    .customer-icon {
+        flex-basis: calc(100% / 3 -30px);
+    }
+
     .what-we-do {
         display: none;
     }
 
+ 
     .about-item h2 {
         font-size: 36px;
         margin-bottom: 8px;
@@ -1003,18 +1022,23 @@ footer {
 
     .footer-inner {
         justify-content: center;
+        
     }
 
-      
+   
+    .footer p {
+        text-align: justify;
+    }   
 
+       
     .btn-sub {
         margin-top: 24px;
         display: flex;
     }
     .team-socials-icon {
-        height: 40px;
-        width: 40px;
-        gap: 24px;
+        height: 30px;
+        width: 30px;
+        gap: 30px;
     }
     .team-socials-icon svg {
         height: 12px;
@@ -1032,9 +1056,7 @@ footer {
         margin-right: 136px;
         margin-top: auto;
         width: 496px;
-        height: 120px; 
-
-    }
+        height: 120px;     
 
     }
    
@@ -1046,9 +1068,10 @@ footer {
         margin-right: 0;
         width: -webkit-fill-available;
         
+        
     }
 
-   
+       
     .social-media h2 {
         text-align: center;
         justify-content: center;
@@ -1071,8 +1094,14 @@ footer {
 
     }
 
+    .footer-subscribe-text {
+        text-align: center;
+    }
+
     .footer {
         text-align: center;
+    }
+
     }
 
           
